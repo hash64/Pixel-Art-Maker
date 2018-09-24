@@ -1,6 +1,12 @@
+html{
+    height: 100%;
+}
 body {
     text-align: center;
-    background-image: repeating-linear-gradient(35deg,#ccffff,#ffcccc);
+    background: linear-gradient(35deg,#ccffff,#ffcccc) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*//background-size:cover;*/
     text-shadow: 2px 2px 7px gray;
 }
 
